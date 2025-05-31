@@ -69,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     maxWidth: 400,
     height: 500,
-    backgroundColor: 'transparent',
+    backgroundColor: 'rgba(255, 255, 255, 0.21)',
     boxShadow: '0px 9px 70px 0px rgb(0 0 0 / 30%) !important',
     borderRadius: '15px',
   },
@@ -240,7 +240,7 @@ useEffect(() => {
       <AppBar position="static" className={classes.appbar}>
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            CodeBasics: Potato Disease Classification
+            Arya - Plant Disease Detection
           </Typography>
           <div className={classes.grow} />
           <Avatar src={cblogo}></Avatar>

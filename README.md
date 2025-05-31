@@ -1,5 +1,5 @@
 # Potato Disease Classification
-
+![alt text](image.png)
 ## Setup for Python:
 
 1. Install Python ([Setup instructions](https://wiki.python.org/moin/BeginnersGuide))
@@ -210,3 +210,6 @@ gcloud functions deploy predict --runtime python38 --trigger-http --memory 512 -
 
 Inspiration: https://cloud.google.com/blog/products/ai-machine-learning/how-to-serve-deep-learning-models-using-tensorflow-2-0-with-cloud-functions
 
+
+Enter the frontend folder and run - npm start
+Also run main.py file for accessing backend example - python -u "/Users/USER_NAME/Projects/potato-disease-classification-main/api/main.py"
